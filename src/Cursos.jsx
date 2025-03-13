@@ -1,6 +1,9 @@
 import './Cursos.css'
 
 function Cursos() {
+    const DSS = "Desenvolvimento de Sistema";
+    const AI = "Inteligência Artifícial";
+    const EL = "Eletrotécnica";
     return (
         <>
             <div class='card-father'>
