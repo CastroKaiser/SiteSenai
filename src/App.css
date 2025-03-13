@@ -1,0 +1,13 @@
+.construction {
+  background-color: rgb(42, 31, 173);
+  color: white;
+  position: sticky;
+  align-items: center;
+}
+
+#layout {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  justify-content: space-evenly;
+}
