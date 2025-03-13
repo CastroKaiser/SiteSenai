@@ -2,7 +2,8 @@
   background-color: rgb(42, 31, 173);
   color: white;
   position: sticky;
-  align-items: center;
+  text-align: center;
+  padding: 10px;
 }
 
 #layout {
@@ -10,4 +11,9 @@
   justify-content: center;
   list-style: none;
   justify-content: space-evenly;
+  text-decoration: none;
+}
+
+a{
+  color: white;
 }
