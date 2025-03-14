@@ -17,6 +17,8 @@
 
    .c-card img {
     border-radius: 1rem;
+    width: 80%;
+    height: 60%;
    }
    
    .c-card h2 {
