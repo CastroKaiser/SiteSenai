@@ -3,7 +3,7 @@
     color: white;
     position: sticky;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
   }
   
   #layout {
@@ -12,9 +12,11 @@
     list-style: none;
     justify-content: space-evenly;
     border-top: 30px;
+    box-shadow: 0 0 10px rgba(93, 93, 93, 0.2);
+    padding: 5px;
   }
   
   a{
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
   }
