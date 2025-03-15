@@ -5,7 +5,6 @@ import Cursos from './Cursos.jsx'
 function App() {
   return (
     <>
-      <Cursos/>
     </>
   )
 }

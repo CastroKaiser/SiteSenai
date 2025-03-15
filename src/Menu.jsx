@@ -10,8 +10,8 @@ function Menu() {
       <nav>
           <ul id='layout'>
             <li><a href="">Home</a></li>
-            <li><a href="">História</a></li>
-            <li><a href="">Cursos</a></li>
+            <li><a href="./Historia.jsx">História</a></li>
+            <li><a href="./Cursos.jsx">Cursos</a></li>
             <li><a href="">Contato</a></li>
           </ul>
       </nav>
