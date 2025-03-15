@@ -1,9 +1,13 @@
 import './Cursos.css'
+import Layout_cursos from './Layout_curso';
 
 function Cursos() {
     const DSS = "Desenvolvimento de Sistema";
     const AI = "Inteligência Artifícial";
     const EL = "Eletrotécnica";
+    const URLD = "./src/assets/DDS.jpg"
+    const URLA = "./src/assets/IA.jpg"
+    const URLE = "./src/assets/imagem.jpg"
     return (
         <>
             <div class='container'>
@@ -18,32 +22,9 @@ function Cursos() {
                 </p>
 
                 <div class='card-father'>
-                    <div class="c-card">
-                        <a href=""><img src="./src/assets/DDS.jpg" alt="imagem do card" />
-                            <h2>Desenvolvimento de Sistemas</h2>
-                            <p>Data da Aplicação: 20/03/2025</p>
-                            <p>Data de Início: 20/03/2025</p>
-                            <p>Data de Térmico: 20/03/2025</p>
-                        </a>
-                    </div>
-                    <div class="c-card">
-                        <a href="">
-                            <img src="./src/assets/IA.jpg" alt="imagem do card" />
-                            <h2>Inteligência Artifícial</h2>
-                            <p>Data da Aplicação: 20/03/2025</p>
-                            <p>Data de Início: 20/03/2025</p>
-                            <p>Data de Térmico: 20/03/2025</p>
-                        </a>
-                    </div>
-                    <div class="c-card">
-                        <a href="">
-                            <img src="./src/assets/imagem.jpg" alt="imagem do card" />
-                            <h2>Eletrotécnica</h2>
-                            <p>Data da Aplicação: 20/03/2025</p>
-                            <p>Data de Início: 20/03/2025</p>
-                            <p>Data de Térmico: 20/03/2025</p>
-                        </a>
-                    </div>
+                    <Layout_cursos nome_curso={DSS} data_aplicacao='12/4/2025' data_inicio='01/05/2025' data_termino='31/09/2025' foto={URLD}/>
+                    <Layout_cursos nome_curso={AI} data_aplicacao='13/9/2025' data_inicio='01/02/2026' data_termino='31/09/2026' foto={URLA}/>
+                    <Layout_cursos nome_curso={EL} data_aplicacao='19/7/2025' data_inicio='01/08/2025' data_termino='31/09/2026' foto={URLE}/>
                 </div>
             </div>
         </>
