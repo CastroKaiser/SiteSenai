@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import './Menu.css'
+import '../css/Menu.css'
 
 function Menu() {
   return (

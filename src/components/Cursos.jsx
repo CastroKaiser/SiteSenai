@@ -1,4 +1,4 @@
-import './Cursos.css'
+import '../css/Cursos.css'
 
 function Cursos() {
     const DSS = "Desenvolvimento de Sistema";
