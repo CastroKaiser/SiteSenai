@@ -1,4 +1,4 @@
-import './Cursos.css'
+import '../css/Cursos.css'
 
 function Layout_cursos({nome_curso,data_aplicacao,data_inicio,data_termino,foto}) {
     return (
