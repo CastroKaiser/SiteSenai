@@ -1,4 +1,5 @@
 import '../css/Menu.css'
+import {Link} from "react-router-dom"
 
 
 function Menu() {
@@ -9,10 +10,9 @@ function Menu() {
       </div>
       <nav>
           <ul id='layout'>
-            <li><a href="">Home</a></li>
-            <li><a href="./Historia.jsx">História</a></li>
-            <li><a href="./Cursos.jsx">Cursos</a></li>
-            <li><a href="">Contato</a></li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/historia">Historia</Link></li>
+            <li><Link to="/contato">Contato</Link></li>
           </ul>
       </nav>
     </>
