@@ -7,6 +7,8 @@ function Cursos() {
     const URLD = "./src/assets/DDS.jpg"
     const URLA = "./src/assets/IA.jpg"
     const URLE = "./src/assets/imagem.jpg"
+
+    //const { data, detalhe, ...rest } = props; // Destructuring assignment
     return (
         <>
             <div class='container'>
