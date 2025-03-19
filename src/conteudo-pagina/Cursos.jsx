@@ -1,5 +1,5 @@
 import '../css/Cursos.css'
-import Layout_cursos from './Layout_curso.jsx'  
+import Layout_cursos from '../components/Layout_curso.jsx'  
 function Cursos() {
     const DSS = "Desenvolvimento de Sistema";
     const AI = "Inteligência Artifícial";

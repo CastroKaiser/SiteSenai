@@ -2,11 +2,11 @@ import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import * as ReactDOM from 'react-dom/client'
 import './index.css'
 import React from "react";
-import Historia from './Historia.jsx'
+import Historia from './conteudo-pagina/Historia.jsx'
 import App from './App.jsx';
 import Contatos from './Contatos.jsx';
-import Cursos from './components/Cursos.jsx';
-import Formulario from './Formulario.jsx';
+import Cursos from './conteudo-pagina/Cursos.jsx';
+import Formulario from './components/Formulario.jsx';
 
 const router = createBrowserRouter([
   {
