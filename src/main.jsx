@@ -6,7 +6,7 @@ import Historia from './conteudo-pagina/Historia.jsx'
 import App from './App.jsx';
 import Contatos from './Contatos.jsx';
 import Cursos from './conteudo-pagina/Cursos.jsx';
-import Formulario from './components/Formulario.jsx';
+import PagInfo from "./conteudo-pagina/PagInfo.jsx";
 
 const router = createBrowserRouter([
   {
@@ -27,7 +27,7 @@ const router = createBrowserRouter([
       },
       {
         path:"curso/info",
-        element:<Formulario/>
+        element:<PagInfo/>
       }
     ]
   }
