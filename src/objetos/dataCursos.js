@@ -2,9 +2,9 @@ const curso = [
     {
         id:"1", 
         nome:"Desenvolvimento de Sistemas",
-        objetivo:"O curso de Desenvolvimento de Sistemas," +
-        "seja em nível técnico ou superior, visa formar profissionais"+
-        "capazes de analisar, projetar, desenvolver, implementar e manter"+
+        objetivo:"O curso de Desenvolvimento de Sistemas, " +
+        "seja em nível técnico ou superior, visa formar profissionais "+
+        "capazes de analisar, projetar, desenvolver, implementar e manter "+
         "sistemas de informação, utilizando conhecimentos em programação, bancos de dados, redes e outras tecnologias", 
         habilidades: [
             {id:"1", nome:"Analisar requisitos de sistemas."},
@@ -21,16 +21,16 @@ const curso = [
             {id:"3",nome:"Empresas de consultoria em TI."},
             {id:"4",nome:"Empresas de tecnologia."}
         ],
-        mercado: "O mercado de trabalho para profissionais de TI,"+
-        "incluindo os analistas e desenvolvedores de sistemas,"+
+        mercado: "O mercado de trabalho para profissionais de TI, "+
+        "incluindo os analistas e desenvolvedores de sistemas, "+
         "é promissor, com alta demanda e salários atrativos",
     },
     {
         id:"2", 
         nome:"Inteligência Artificial",
-        objetivo:"O objetivo do curso de Inteligência Artificial é capacitar os alunos"+
+        objetivo:"O objetivo do curso de Inteligência Artificial é capacitar os alunos "+
         "a entender e aplicar técnicas de IA para resolver problemas do mundo real."+
-        "Você aprenderá a criar sistemas inteligentes que podem analisar dados, reconhecer padrões,"+
+        "Você aprenderá a criar sistemas inteligentes que podem analisar dados, reconhecer padrões, "+
         "tomar decisões automatizadas e melhorar continuamente com o tempo.", 
         habilidades: [
             {id:"1", nome:"Programação em Python"},
@@ -47,14 +47,14 @@ const curso = [
             {id:"3",nome:"Engenheiro de Machine Learning"},
             {id:"4",nome:"Analista Quantitativo"}
         ],
-        mercado: "O mercado de trabalho para Inteligência Artificial está em rápida"+
+        mercado: "O mercado de trabalho para Inteligência Artificial está em rápida "+
         "expansão e oferece altas oportunidades para profissionais qualificados. ",
     },
     {
         id:"3", 
         nome:"Eletrotecnica",
-        objetivo:"O curso de Eletrotécnica tem como objetivo formar profissionais"+
-        "capacitados para projetar, instalar, operar e realizar a manutenção de"+
+        objetivo:"O curso de Eletrotécnica tem como objetivo formar profissionais "+
+        "capacitados para projetar, instalar, operar e realizar a manutenção de "+
         "sistemas elétricos em diversos setores da indústria e infraestrutura.", 
         habilidades: [
             {id:"1", nome:"Fundamentos da eletricidade"},
