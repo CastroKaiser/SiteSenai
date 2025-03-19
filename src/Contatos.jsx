@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 function Contatos() {
     return (
         <>
-            <div class="red">
+            <div className="red">
                 <h1>Teste</h1>
             </div>
         </>

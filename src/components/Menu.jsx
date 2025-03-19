@@ -5,7 +5,7 @@ import {Link} from "react-router-dom"
 function Menu() {
   return (
     <>
-      <div class='construction'>
+      <div className='construction'>
           <img src="./src/assets/logo-senai.png" alt="logo-senai" height='15%' width='15%' />
       </div>
       <nav>

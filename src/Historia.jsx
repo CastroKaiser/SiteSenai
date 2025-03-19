@@ -3,7 +3,7 @@ import './css/Historia.css';
 function Historia() {
     return (
         <>
-            <div class="blue">
+            <div className="blue">
                 <h1>Teste</h1>
             </div>
         </>

@@ -6,7 +6,8 @@ import Historia from './Historia.jsx'
 import App from './App.jsx';
 import Contatos from './Contatos.jsx';
 import Cursos from './components/Cursos.jsx';
-import Formulario from './Formulario.jsx';
+import DetalhesCurso from "./DetalhesCurso.jsx";
+
 
 const router = createBrowserRouter([
   {
@@ -26,8 +27,8 @@ const router = createBrowserRouter([
         element: <Contatos />
       },
       {
-        path:"curso/info",
-        element:<Formulario/>
+        path:"curso/info/:id",
+        element:<DetalhesCurso/>
       }
     ]
   }

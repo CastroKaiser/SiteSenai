@@ -7,7 +7,9 @@ function App() {
     return(
         <>
             <Menu />
-            <Outlet />
+            <main className="content">
+                <Outlet />
+            </main>
             <Footer />
         </>
     )
