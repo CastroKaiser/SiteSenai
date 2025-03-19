@@ -16,9 +16,18 @@ function PagInfo() {
             <h2>Habilidades Adquiridas</h2>
             <ul>
                 As habilidades aprendidas no curso de {cursoSelecionado.nome}
-                <li key={cursoSelecionado.id}></li>
+                {cursoSelecionado.habilidades.map((habilidade) => (
+                    <li key={habilidade.id}>{habilidade.nome}</li>
+                ))}
             </ul>
 
+            <h2>Áreas de Atuação</h2>
+            <ul>
+                Os profissionais formados em {cursoSelecionado.nome} podem atuar em:
+                {cursoSelecionado.atuacao.map((atua) => (
+                    <li key={atua.id}>{atua.nome}</li>
+                ))}
+            </ul>
         </div>
     )
 }

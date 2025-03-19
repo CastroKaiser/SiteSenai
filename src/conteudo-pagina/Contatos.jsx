@@ -1,6 +1,4 @@
 import React from "react";
-import Menu from "./conteudo-pagina/Menu";
-import Footer from "./conteudo-pagina/Footer";
 
 function Contatos() {
     return (

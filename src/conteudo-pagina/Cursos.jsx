@@ -1,5 +1,6 @@
 import '../css/Cursos.css'
 import Layout_cursos from '../components/Layout_curso.jsx'  
+import curso from '../objetos/dataCursos.js';
 function Cursos() {
     const DSS = "Desenvolvimento de Sistema";
     const AI = "Inteligência Artifícial";
@@ -23,9 +24,9 @@ function Cursos() {
                 </p>
 
                 <div class='card-father'>
-                    <Layout_cursos nome_curso={DSS} data_aplicacao='12/4/2025' data_inicio='01/05/2025' data_termino='31/09/2025' foto={URLD}/>
-                    <Layout_cursos nome_curso={AI} data_aplicacao='13/9/2025' data_inicio='01/02/2026' data_termino='31/09/2026' foto={URLA}/>
-                    <Layout_cursos nome_curso={EL} data_aplicacao='19/7/2025' data_inicio='01/08/2025' data_termino='31/09/2026' foto={URLE}/>
+                    <Layout_cursos id={curso[0].id} nome_curso={DSS} data_aplicacao='12/4/2025' data_inicio='01/05/2025' data_termino='31/09/2025' foto={URLD}/>
+                    <Layout_cursos id={curso[1].id} nome_curso={AI} data_aplicacao='13/9/2025' data_inicio='01/02/2026' data_termino='31/09/2026' foto={URLA}/>
+                    <Layout_cursos id={curso[2].id} nome_curso={EL} data_aplicacao='19/7/2025' data_inicio='01/08/2025' data_termino='31/09/2026' foto={URLE}/>
                 </div>
             </div>
         </>
