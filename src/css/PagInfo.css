@@ -1,23 +1,28 @@
-.content{
-    margin: 2rem 15rem 0rem 15rem;
+.content {
+    padding: 2rem 15rem 0rem 15rem;
 }
-.formatation{
-    margin: 1rem 0rem 0rem 0rem;
+.organization {
+    padding-left: 2rem;
 }
-.formatation h2{
-    margin-left: 1.5rem;
-    margin-top: 5px;
+.style-list-none ul{
+    padding-left: 2rem;
+    padding-top: 5px;
 }
-.formatation p{
-    margin-left: 3rem;
-    margin-top: 5px;
-}
-.formatation ul {
-    margin-left: 3rem;
-    margin-top: 5px;
-}
-.formatation ul li{
+.style-list-none ul li{
     list-style: none;
-    margin-left: 1.5rem;
-    margin-top: 5px;
+    padding-left: 2rem;
 }
+.style-list-none{
+    width: 100%;
+    text-align: justify;
+}
+.style-list-none p{
+    padding-left: 2rem;
+    padding-top: 5px;
+}
+.style-list-none h2{
+    padding-top: 1rem;
+}
+/* Sempre que for definir a estrutra do conteudo da pagina
+priorize seguir um padrão da div que vai conter tudo */
+
